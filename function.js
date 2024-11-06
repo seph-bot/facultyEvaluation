@@ -12,10 +12,10 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     };
     
     const pages = {
-        "regularStudent": "../regularSt/regular_student_dashboard.html",
-        "irregularStudent": "../irregularSt/irregular_student_dashboard.html",
-        "facultyTeacher": "../facultyTeacher/faculty_teacher_dashboard.html",
-        "admin": "../admin/admin_dashboard.html"
+        "regularStudent": "regularSt/regular_student_dashboard.html",
+        "irregularStudent": "irregularSt/irregular_student_dashboard.html",
+        "facultyTeacher": "facultyTeacher/faculty_teacher_dashboard.html",
+        "admin": "admin/admin_dashboard.html"
     };
 
     if (patterns[userType] && patterns[userType].test(userId)) {
