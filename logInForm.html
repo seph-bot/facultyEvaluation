@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="faculty evaluation for olivarez college tagaytay"/>
+        <meta name="keywords" content="olivarez college tagaytay, faculty evaluation"/>
+        <meta name="author" content="TVL-ICT 12 LYRA - GROUP 5"/>
+        <title>OLIVAREZ COLLEGE TAGAYTAY FACULTY EVAL</title>
+        <link rel="icon" href="../images/logo.jpg"/>
+        <link rel="stylesheet" href="../css/DESIGN.css"/>
+    </head>
+    <body>
+        <h1>FACULTY EVALUATION</h1>
+        
+        <div class="login">
+            <form id="loginForm">
+                <div>
+                <label for="userType">Select User Type:</label>
+                <select id="userType" required>
+                    <option value="regularStudent">Regular Student</option>
+                    <option value="irregularStudent">Irregular Student</option>
+                    <option value="facultyTeacher">Faculty Teacher</option>
+                    <option value="admin">Admin</option>
+                </select>
+                </div>
+
+                <div>
+                <label for="for_id">Enter ID:</label>
+                <input type="text" id="for_id" required>
+                </div>
+
+                <div class="password_input">
+                    <label for="for_pass">PASSWORD:</label>
+                    <input id="for_pass" type="password" required placeholder="*********" minlength="9"/>
+                </div>
+            
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+        
+        <img src="../images/OCT Logo.png" alt="Olivarez College Tagaytay Logo"/>
+        <script src="function.js"></script>
+    </body>
+</html>
