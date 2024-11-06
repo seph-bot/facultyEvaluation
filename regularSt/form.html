@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="TVL-ICT 12 LYRA - GROUP 5"/>
+        <title>Evaluation Form</title>
+        <link rel="stylesheet" href="../css/formds.css"/>
+        <link rel="icon" href="../images/logo.jpg"/>
+    </head>
+    <body>
+        <h2>Evaluation Form</h2>
+        <form id="evaluationForm">
+          
+
+            <div class="form-group">
+                <label>1. How would you rate the overall quality of his/her performace?</label>
+                <div class="radio-group">
+                    <input type="radio" id="excellent" name="quality" value="Excellent">
+                    <label for="excellent">Excellent</label>
+                    <input type="radio" id="good" name="quality" value="Good">
+                    <label for="good">Good</label>
+                    <input type="radio" id="average" name="quality" value="Average">
+                    <label for="average">Average</label>
+                    <input type="radio" id="poor" name="quality" value="Poor">
+                    <label for="poor">Poor</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>2. How well did the instructor explain the lesson?</label>
+                <div class="radio-group">
+                    <input type="radio" id="very-well" name="instructor" value="Very Well">
+                    <label for="very-well">Very Well</label>
+                    <input type="radio" id="well" name="instructor" value="Well">
+                    <label for="well">Well</label>
+                    <input type="radio" id="average" name="instructor" value="Average">
+                    <label for="average">Average</label>
+                    <input type="radio" id="poorly" name="instructor" value="Poorly">
+                    <label for="poorly">Poorly</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="feedback">3. What did you like most about her/his teaching method?</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="concerns">4. Do you have any concern about his/her teachings?</label>
+                <textarea id="concerns" name="improvements" rows="4" required></textarea>
+            </div>
+
+            <div class="button">
+                <a href="lastpage.html">Submit</a>
+            </div>
+            <!--<button type="submit">Submit Evaluation</button>-->
+        </form>
+
+    </body>
+</html>
